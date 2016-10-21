@@ -15,6 +15,7 @@ public:
     explicit graphicUI(QWidget *parent = 0);
     ~graphicUI();
     QString getTime();
+public slots:
 
 private:
     Ui::graphicUI *ui;
