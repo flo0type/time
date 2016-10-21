@@ -16,6 +16,7 @@ public:
     ~graphicUI();
     QString getTime();
 public slots:
+    void commit();
 
 private:
     Ui::graphicUI *ui;
